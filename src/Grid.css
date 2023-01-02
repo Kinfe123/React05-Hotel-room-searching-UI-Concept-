@@ -1,0 +1,23 @@
+.grid-images {
+   /* margin-top: -330px; */
+    
+    
+
+
+}
+.container-for-images {
+    display: grid;
+    max-width: 30px;
+    
+    grid-template-columns: repeat(3 , 1fr);
+}
+
+.container-for-images img {
+    
+    border-radius: 20px;
+    
+    width: 360px;
+    height: 300px;
+    
+   
+}

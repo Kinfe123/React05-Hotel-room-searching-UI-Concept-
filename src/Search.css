@@ -1,0 +1,54 @@
+.search-with {
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0.8;
+    margin-top: 0;
+    width: 890px;
+   
+}
+.search-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background: rgba(227, 224, 231, 0.76);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+
+    border: 1px solid rgba(231, 227, 236, 0.5);
+
+    
+
+}
+.search-elements p {
+    position: relative;
+}
+.pipeLine {
+    color:#161616;
+    opacity: 0.8;
+    width: 20px;
+    scale: 1.7;
+}
+
+.search-with .drop-down {
+    position: absolute;
+    color:#161616;
+    opacity: 0.8;
+    top:-24px;
+    padding-top: 20px;
+
+}
+
+.search-elements .search-bar {
+    position: absolute;
+    color:#161616;
+    opacity: 0.8;
+    top:-20px;
+    padding-left: 40px;
+
+   
+   
+    
+}
